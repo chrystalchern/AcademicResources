@@ -1,4 +1,4 @@
-# Literature review for SHM
+# Literature Review Guide
 
 ## Learning about a particular topic
 - Google Scholar or Web of Science, colleagues, review paper references, conference paper references
@@ -6,7 +6,7 @@
 - Follow references until landing on a paper that boils down methodology and experimental results in a helpful and relevant way.
 
 ## Staying up-to-date on recent publications
-- Look through the most recent issues of [SHM journals](#shm-journal-list)
+- Look through the most recent issues of relevant journals [(Example: SHM journals)](#example-shm-journal-list)
 - Look at feature papers with more citations
 - [Journal Citation Reports](https://jcr.clarivate.com/jcr/home) provide rankings and statistics on any journal indexed in Web of Science.[*](https://researchguides.uic.edu/if/impact) You can:
     - Save journals into a favorites list
@@ -17,7 +17,7 @@
 ![JCR Data](../Figures/JCR_data.png)
 ![JCR Favorites](../Figures/JCR_favorites.png)
 
-## SHM Journal List
+## Example: SHM Journal List
 | Abbreviation | ISSN | Journal Name | 2021 [Impact Factor](#impact-factor) |
 |--------------|------|--------------|--------------------------------------|
 | Earthq. Eng. Struct. Dyn. | 0098-8847 | Earthquake Engineering and Structural Dynamics | 4.060 |
