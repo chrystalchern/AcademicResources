@@ -4,6 +4,7 @@
 - Google Scholar or Web of Science, colleagues, review paper references, conference paper references
 - Citations and authors
 - Follow references until landing on a paper that boils down methodology and experimental results in a helpful and relevant way.
+- https://www.litmaps.com/ and https://www.citationgecko.com/ can refer you to related papers.
 
 ## Staying up-to-date on recent publications
 - Look through the most recent issues of relevant journals [(Example: SHM journals)](#example-shm-journal-list)
