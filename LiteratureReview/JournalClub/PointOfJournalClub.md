@@ -1,4 +1,5 @@
 # What is Journal Club?
+
 - We take turns presenting journal papers every week, and discuss literature together.
 
 # What's the point of Journal Club?
