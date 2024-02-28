@@ -1,0 +1,5 @@
+for i in *.jpg ; do convert $i -background white -alpha remove -alpha off $i; done
+for i in *.jpg ; do img2pdf $i -o ${i%.jpg}.pdf; done
+
+for i in *.png ; do convert $i -background white -alpha remove -alpha off ${i%.png}_bg.png; done
+for i in *_bg.png ; do img2pdf $i -o ${i%_bg.png}.pdf; done
