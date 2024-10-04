@@ -2,8 +2,18 @@
 # having all images as pdf files also makes latex render more quickly.
 # run this script (bash make_figs_pdfs.sh) in your figures directory to convert all jpgs and pngs to pdfs.
 
-for i in *.jpg ; do convert $i -background white -alpha remove -alpha off $i; done
-for i in *.jpg ; do img2pdf $i -o ${i%.jpg}.pdf; done
+shopt -s globstar
+for i in figures/**/*.png
+    do
+    figuredate=$(date -r $i +%s)
+    lastdate=$(<date_png_last_converted.txt)
+    if [ $figuredate -ge $lastdate ]
+    then
+        echo $i
+        convert $i -background white -alpha remove -alpha off $i
+        img2pdf $i -o ${i/.png/.pdf}
+    fi  
+done
 
-for i in *.png ; do convert $i -background white -alpha remove -alpha off ${i%.png}_bg.png; done
-for i in *_bg.png ; do img2pdf $i -o ${i%_bg.png}.pdf; done
+sleep 5
+date +%s > date_png_last_converted.txt
