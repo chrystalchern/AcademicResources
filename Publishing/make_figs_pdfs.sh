@@ -1,6 +1,6 @@
 # often, journals will ask that you submit all images as pdf files.
 # having all images as pdf files also makes latex render more quickly.
-# run this script (bash make_figs_pdfs.sh) in your figures directory to convert all jpgs and pngs to pdfs.
+# run this script (bash make_figs_pdfs.sh) in your figures directory to convert all pngs to pdfs.
 
 shopt -s globstar
 for i in figures/**/*.png
