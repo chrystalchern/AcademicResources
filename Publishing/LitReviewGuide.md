@@ -27,6 +27,7 @@
 | Eng. Struct.     | 0141-0296 | Engineering Structures                              | 5.582  |
 | Struct. Control. Health Monit. | 1545-2255 | Structural Control and Health Monitoring | 6.058 |
 | J. Comput. Civil. Eng. | 0887-3801 | Journal of computing in civil engineering           | 5.802 |
+| J. Civ. Struct. Health Monit. | 2190-5452 | Journal of Civil Structural Health Monitoring | 3.338 |
 
 ## Organizing Papers
 Zotero and Mendeley have useful apps for organizing your literature reviews. You can:
