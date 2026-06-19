@@ -8,4 +8,4 @@ you may have to install latex in several ways. For example, in Linux:
     4. sudo apt install cm-super
     5. sudo apt install dvipng
 
-- On MacOS, install [MacTex]([url](https://formulae.brew.sh/cask/mactex)). This should cover all of the requirements.
+- On MacOS, install [MacTex](https://formulae.brew.sh/cask/mactex). This should cover all of the requirements.
